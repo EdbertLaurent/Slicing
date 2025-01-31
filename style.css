@@ -1,0 +1,200 @@
+/* body {
+  width: 1280px;
+  height: 4149px;
+  margin: auto;
+} */
+
+.header {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+.Button p {
+  border-radius: 25px;
+  background-image: linear-gradient(#00c0fd, #0056fd);
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 40px;
+  color: #ffffff;
+}
+.navigation {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 57px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content img {
+  object-fit: cover;
+  height: 468px;
+  width: 420px;
+}
+
+.image-profile {
+  display: flex;
+
+  background-repeat: no-repeat;
+  background-image: url("assets/background.png");
+  background-size: auto;
+}
+.image-profile .skill {
+  display: flex;
+  background-color: white;
+  border: #0056fd;
+  color: black;
+  border-color: #333333;
+  border-width: 1px solid;
+  text-align: center;
+  align-items: center;
+}
+
+.content h2 {
+  font-weight: lighter;
+}
+.card-title {
+  background-color: #333333;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 193px;
+  border-radius: 60px 60px 0px 0px;
+  color: white;
+  width: 1304px;
+  height: 896px;
+
+  margin: auto;
+}
+.card-title .card-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+.card-body {
+  background-image: linear-gradient(#00c0fd, #0056fd);
+  border-radius: 40px;
+  width: 1060px;
+  height: 440px;
+  margin-top: 80px;
+  margin-left: 118px;
+  margin-right: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 63px;
+  padding-top: 41px;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.circle-slide {
+  width: 56px;
+  height: 8px;
+  padding-top: 49px;
+
+  margin: auto;
+}
+button {
+  margin-top: 40px;
+  border-radius: 25px;
+  box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2);
+  border-style: none;
+  padding: 12px 32px;
+  background: linear-gradient((#fafeff, #ffffff), (#00c0fd, #0056fd));
+}
+
+.tecno {
+  padding-top: 59px;
+  margin-left: 805px;
+  margin-right: 47px;
+  width: 208px;
+  height: 48px;
+  justify-content: end;
+  color: black;
+}
+
+.FindMyWork {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.FindMyWork .findmywork-top {
+  color: black;
+}
+
+.card-work {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-work-content {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#ffb94a, #f4693f);
+  border-radius: 20px;
+  width: 341px;
+  height: 370px;
+}
+
+.card-work .card-work-content h5 {
+  display: flex;
+  align-items: start;
+}
+
+.card-work-content img {
+  width: 309px;
+  height: 237px;
+  padding: 16px;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.detail-card a {
+  color: white;
+}
+.detail-card span {
+  border-radius: 20px;
+  background-image: linear-gradient(#fafeff, #ffffff);
+  color: #00c0fd;
+  padding: 8px 16px;
+}
